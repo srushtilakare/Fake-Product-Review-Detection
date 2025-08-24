@@ -1,4 +1,5 @@
-flask
+Flask
+flask-cors
 joblib
 scikit-learn
 numpy
