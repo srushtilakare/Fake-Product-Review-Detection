@@ -31,7 +31,7 @@ def preprocess_review(text):
 # Home route
 @app.route('/')
 def home():
-    return "✅ Fake Review Detection API is running."
+    return "Fake Review Detection API is running."
 
 # Prediction route
 @app.route('/predict', methods=['POST'])

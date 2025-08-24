@@ -58,10 +58,10 @@ model.fit(X_train, y_train)
 
 # 9. Evaluate
 y_pred = model.predict(X_test)
-print("✅ Model Accuracy:", accuracy_score(y_test, y_pred))
+print("Model Accuracy:", accuracy_score(y_test, y_pred))
 
 # 10. Save everything
 joblib.dump(model, 'model/model.pkl')
 joblib.dump(vectorizer, 'model/vectorizer.pkl')
 joblib.dump(scaler, 'model/scaler.pkl')
-print("✅ Model, Vectorizer, and Scaler saved.")
+print("Model, Vectorizer, and Scaler saved.")

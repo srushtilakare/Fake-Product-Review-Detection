@@ -1,0 +1,36 @@
+# Python (backend)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+instance/
+.env
+.venv
+venv/
+.env.local
+*.egg-info/
+
+# Model files (if large, >50MB upload to Git LFS instead)
+*.pkl
+
+# Node (frontend)
+node_modules/
+dist/
+build/
+.npm/
+.cache/
+.vite/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Others
+*.swp
+*.bak
+*.tmp
