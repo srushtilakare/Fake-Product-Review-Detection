@@ -25,7 +25,7 @@ import {
   Frown,
   Meh,
 } from "lucide-react"
-import "./app.css"
+import "./App.css"
 
 function App() {
   // Core state
